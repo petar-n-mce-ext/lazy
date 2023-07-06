@@ -12,6 +12,6 @@ local function map(mode, lhs, rhs, opts)
   end
 end
 
--- Set upercase on  insert mode with <ctr> + upercase
+-- Set upercase on  insert mode with <ctr> + U (upercase)
 -- absolutly love This
 map("i", "<C-u>", "<Esc>gUiw`]a", { desc = "To uppercase" })
