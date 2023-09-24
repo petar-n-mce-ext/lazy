@@ -12,6 +12,9 @@ return {
             open = { "Telescope find_files" },
         }
       })
-    end,
+   end,
+    keys = {
+      { "<leader>xw", "<cmd>Telescope workspaces<cr>", desc = "Workspaces" },
+    }
   }
 }

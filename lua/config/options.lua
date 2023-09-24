@@ -5,3 +5,5 @@ local opt = vim.opt
 
 -- Disable swap files
 opt.swapfile = false
+-- vim.opt.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
+vim.opt.foldmethod = 'expr'
